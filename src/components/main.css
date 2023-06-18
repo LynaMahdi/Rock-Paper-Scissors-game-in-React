@@ -1,0 +1,174 @@
+@media screen and (min-width: 800px) {
+    body{
+        background-color:  hsl(237, 49%, 15%); 
+    }
+    
+}
+
+.sc{
+    position: absolute;
+    height: 140px;
+    width: 730px;
+    left: 430px;
+    top: 50px;
+    border-color: grey;
+    border-style: solid;
+    border-radius: 10px;
+    
+}
+
+img{
+    position: absolute;
+    top: 23px;
+    left: 10px;
+}
+
+
+.Score{
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    left: 610px;
+    top: 15px;
+    background-color: aliceblue;
+    border-radius: 10px;
+
+}
+
+h1{
+    position: relative;
+    left: 25px;
+    top: -10px;
+    color: hsl(229, 64%, 46%);
+    font-size: 22px;
+}
+
+
+.play{
+    position: absolute;
+    left: 620px;
+    top: 290px;
+}
+
+
+
+.cisors{
+    position: absolute;
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    left: -60px;
+    top: -48px;
+    background-color: hsl(217, 16%, 45%);
+    border-radius: 50% 50%;
+ 
+ 
+}
+.rock{
+ 
+    position: absolute;
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    left: 250px;
+    top: -48px;
+    background-color: hsl(217, 16%, 45%);
+    border-radius: 50% 50%;
+   
+}
+.paper{
+    position: absolute;
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    left: 80px;
+    top: 240px;
+    background-color: hsl(217, 16%, 45%);
+    border-radius: 50% 50%;
+
+}
+
+.InnerCircle1{
+    background-image: linear-gradient(
+        to left, hsl(39, 89%, 49%) , hsl(40, 84%, 53%));
+
+position: absolute;
+top: -20px;
+bottom: -20px;
+right: -20px;
+left: -20px;
+z-index: -8;
+border-radius: inherit;
+}
+.pl{
+    position: absolute;
+    left: 45px;
+    top:40px;
+}
+
+.InnerCircle2{
+    background-image: linear-gradient(
+        to left,  hsl(349, 71%, 52%) , hsl(349, 70%, 56%));
+
+position: absolute;
+top: -20px;
+bottom: -20px;
+right: -20px;
+left: -20px;
+z-index: -8;
+border-radius: inherit;
+}
+.pl{
+    position: absolute;
+    left: 45px;
+    top:40px;
+}
+
+.InnerCircle3{
+    background-image: linear-gradient(
+        to left,hsl(230, 89%, 62%) , hsl(230, 89%, 65%));
+
+position: absolute;
+top: -20px;
+bottom: -20px;
+right: -20px;
+left: -20px;
+z-index: -8;
+border-radius: inherit;
+}
+
+.pl{
+    position: absolute;
+    left: 45px;
+    top:40px;
+}
+
+.Rules{
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 10px;
+    top: 670px;
+    left: 1200px;
+}
+
+h{
+    position: relative;
+    left: 42px;
+    top:2px;
+    font-size: 22px;
+    color: grey;
+}
+
+.ru{
+    position: absolute;
+    top: 120px;
+    left: 80px;
+}
+
+.close{
+    position: absolute;
+    left: 410px;
+}

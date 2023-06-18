@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Main from './components/main'; 
+import Start from './components/start';
+import Choosed from './components/choosed';
+import {BrowserRouter, Routes,
+  Route
+}  from 'react-router-dom';
+import {useState} from 'react'
 function App() {
+  const[im,setIm]=useState("")
+  const [image,setImage]=useState("")
+  console.log(im)
+  console.log(image)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <> 
+    <BrowserRouter>
+    <Main />
+    <Routes> 
+      <Route exact path='/' element={<Start im={im} setIm={setIm} setImage={setImage} />}></Route>
+      <Route exact path='/choosed' element={<Choosed im={im} image={image}/>}></Route>
+    </Routes>  
+    </BrowserRouter>  
+    </>
   );
 }
 
