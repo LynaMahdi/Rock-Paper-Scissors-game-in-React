@@ -6,7 +6,7 @@ import rules from '.././image-rules.svg'
 import close from '.././icon-close.svg'
 import { useState } from 'react';
 
-function Main(){
+function Main({score}){
     const [ope,setOpen]=useState(false)
    
     return (
@@ -15,6 +15,7 @@ function Main(){
              <img  src={logo} />
              <div className="Score">
                 <h1>Score</h1>
+                <h5>{score}</h5>
              </div>
            </div>
                     

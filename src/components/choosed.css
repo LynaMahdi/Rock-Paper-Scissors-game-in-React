@@ -12,7 +12,8 @@
 
 
 .InnerCircle{
-   
+    background-image: linear-gradient(
+        to left,hsl(230, 89%, 62%) , hsl(230, 89%, 65%));
 
 position: absolute;
 top: -20px;
@@ -49,4 +50,30 @@ h4{
     top: -130px;
     left: 12px;
     color: aliceblue;
+}
+
+
+.text{
+    position: relative;
+    color: white;
+    font-size: 22px;
+    left: 730px;
+    top: 350px;
+}
+
+.play-again{
+    position: absolute; 
+    left: 705px;
+    top: 420px;
+    background-color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: .8rem;
+
+    &:hover{
+        color: red;
+    }
+    
 }

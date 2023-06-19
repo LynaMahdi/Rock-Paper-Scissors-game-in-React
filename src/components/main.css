@@ -88,7 +88,7 @@ h1{
 
 }
 
-.InnerCircle1{
+.paper1{
     background-image: linear-gradient(
         to left, hsl(39, 89%, 49%) , hsl(40, 84%, 53%));
 
@@ -106,7 +106,7 @@ border-radius: inherit;
     top:40px;
 }
 
-.InnerCircle2{
+.cisors1{
     background-image: linear-gradient(
         to left,  hsl(349, 71%, 52%) , hsl(349, 70%, 56%));
 
@@ -124,7 +124,7 @@ border-radius: inherit;
     top:40px;
 }
 
-.InnerCircle3{
+.rock1{
     background-image: linear-gradient(
         to left,hsl(230, 89%, 62%) , hsl(230, 89%, 65%));
 
@@ -137,11 +137,7 @@ z-index: -8;
 border-radius: inherit;
 }
 
-.pl{
-    position: absolute;
-    left: 45px;
-    top:40px;
-}
+
 
 .Rules{
     position: absolute;
@@ -171,4 +167,13 @@ h{
 .close{
     position: absolute;
     left: 410px;
+}
+
+
+h5{
+    position: relative;
+    left: 45px;
+    top: -60px;
+    font-size: 33px;
+    color: hsl(229, 25%, 31%);
 }

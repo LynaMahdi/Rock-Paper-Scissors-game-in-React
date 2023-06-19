@@ -10,22 +10,22 @@ function Start({im,setIm,setImage}){
     return(
         <div className="play">
         <img src={triangle} />
-        <Link to="/choosed" onClick={()=> {setIm("InnerCircle1");
+        <Link to="/choosed" onClick={()=> {setIm("paper1");
         setImage(paper)}} className="cisors">
             
-           <div className="InnerCircle1"></div>
+           <div className="paper1"></div>
            <img  className="pl" src={paper} />
         </Link>
 
-       <Link to="/choosed" onClick={()=>{setIm("InnerCircle2");
+       <Link to="/choosed" onClick={()=>{setIm("cisors1");
     setImage(cisors)}} className="rock">
-          <div className="InnerCircle2"></div>
+          <div className="cisors1"></div>
          <img   className="pl" src={cisors} />
        </Link>
 
-       <Link to="/choosed" onClick={()=>{setIm("InnerCircle3");
+       <Link to="/choosed" onClick={()=>{setIm("rock1");
     setImage(rock)}} className="paper">
-        <div className="InnerCircle3"></div>  
+        <div className="rock1"></div>  
          <img  className="pl" src={rock} />
        </Link>
        
